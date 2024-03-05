@@ -52,7 +52,7 @@ const Chat = () => {
   }, [onlinePeople]);
 
   function connectToWs() {
-    const ws = new WebSocket("ws://localhost:4040");
+    const ws = new WebSocket("ws://mern-chat-app-5syy.onrender.com/");
     setWs(ws);
     ws.addEventListener("message", handleMessage);
     ws.addEventListener("close", () => {
