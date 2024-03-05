@@ -23,7 +23,7 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 app.use(
   cors({
     credentials: true,
-    origin: "https://mern-chat-app-eight-beige.vercel.app/",
+    origin: "https://mern-chat-app-eight-beige.vercel.app",
   })
 );
 app.use(cookieParser());

@@ -4,7 +4,7 @@ import { UserContextProvider } from "../context/UserContext";
 import Routes from "./pages/Routes";
 
 function App() {
-  axios.defaults.baseURL = "https://mern-chat-app-5syy.onrender.com/";
+  axios.defaults.baseURL = "https://mern-chat-app-5syy.onrender.com";
   axios.defaults.withCredentials = true;
 
 
